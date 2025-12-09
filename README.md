@@ -43,12 +43,10 @@ Ollama installed with models: ollama run mistral and ollama pull nomic-embed-tex
 Java 17+ and Node.js 20+
 1. Start the Backend
 code
-
 git checkout backend
 mvn spring-boot:run
 2. Start the Frontend
 code
-
 git checkout frontend
 npm install
 ng serve
