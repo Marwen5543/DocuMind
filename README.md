@@ -24,7 +24,6 @@ graph LR
     VectorDB -- Returns Context --> Mistral[Ollama: Mistral]
     Mistral -- Generates Answer --> API
     API --> UI[Angular UI]
-
 🛠️ Tech Stack
 Backend
 Core: Java 17, Spring Boot 3.4
@@ -38,7 +37,6 @@ Communication: REST API
 DevOps
 CI/CD: GitHub Actions (Maven & NPM Pipelines)
 VCS: Git (Feature Branch Workflow)
-
 🚀 How to Run
 Prerequisites
 Ollama installed with models: ollama run mistral and ollama pull nomic-embed-text
@@ -50,6 +48,7 @@ git checkout backend
 mvn spring-boot:run
 2. Start the Frontend
 code
+
 git checkout frontend
 npm install
 ng serve
