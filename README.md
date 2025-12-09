@@ -11,19 +11,7 @@ This project implements a **Modern RAG Pipeline**:
 3.  **Frontend:** Angular 17 + TailwindCSS for a ChatGPT-like experience.
 4.  **DevOps:** Automated CI Pipelines via GitHub Actions.
 
-```mermaid
-graph LR
-    User[User Uploads PDF] --> API[Spring Boot API]
-    API --> Tika[Apache Tika Extraction]
-    Tika --> Splitter[Token Splitter]
-    Splitter --> Nomic[Ollama: Nomic-Embed]
-    Nomic --> VectorDB[(In-Memory Vector Store)]
-    
-    User2[User Asks Question] --> API
-    API --> VectorDB
-    VectorDB -- Returns Context --> Mistral[Ollama: Mistral]
-    Mistral -- Generates Answer --> API
-    API --> UI[Angular UI]
+
 🛠️ Tech Stack
 Backend
 Core: Java 17, Spring Boot 3.4
