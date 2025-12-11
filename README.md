@@ -1,6 +1,6 @@
 # 🧠 DocuMind - AI-Powered Document Intelligence Platform
 
-![Build Status](https://github.com/Marwen5543/DocuMind/actions/workflows/backend-ci.yml/badge.svg) ![Frontend Status](https://github.com/Marwen5543/DocuMind/actions/workflows/frontend-ci.yml/badge.svg)
+ ![Frontend Status](https://github.com/Marwen5543/DocuMind/actions/workflows/frontend-ci.yml/badge.svg)
 
 **DocuMind** is an enterprise-grade **RAG (Retrieval-Augmented Generation)** platform that allows users to chat with their PDF documents. It uses a split-architecture AI pipeline to ingest documents in seconds and answer questions with high context awareness.
 
